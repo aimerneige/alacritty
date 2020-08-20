@@ -14,6 +14,8 @@ font:
         12
 scrolling:
     history: 5000
+mouse:
+    hide_when_typing: true
 key_bindings:
     - { key: V,        mods: Control|Shift, action: Paste            }
     - { key: C,        mods: Control|Shift, action: Copy             }
