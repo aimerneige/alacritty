@@ -16,6 +16,7 @@ scrolling:
     history: 5000
 mouse:
     hide_when_typing: true
+draw_bold_text_with_bright_colors: true
 key_bindings:
     - { key: V,        mods: Control|Shift, action: Paste            }
     - { key: C,        mods: Control|Shift, action: Copy             }
