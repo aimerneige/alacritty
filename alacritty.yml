@@ -11,7 +11,7 @@ font:
         family: FiraCode Nerd Font
         style: Italic
     size:
-        14
+        16
 scrolling:
     history: 10000
 mouse:
