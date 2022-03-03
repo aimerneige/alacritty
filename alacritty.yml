@@ -1,5 +1,17 @@
 window:
     opacity: 0.8
+    dimensions:
+        colums: 100
+        rows: 85
+    padding:
+        x: 0
+        y: 0
+    dynamic_padding: false
+    # Values for `startup_mode`:
+    #   - Windowed
+    #   - Maximized
+    #   - Fullscreen
+    startup_mode: Fullscreen
 font:
     normal:
         family: Sarasa Mono SC Nerd
