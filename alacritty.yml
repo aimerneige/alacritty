@@ -7,11 +7,8 @@ window:
         x: 0
         y: 0
     dynamic_padding: false
-    # Values for `startup_mode`:
-    #   - Windowed
-    #   - Maximized
-    #   - Fullscreen
-    startup_mode: Fullscreen
+    decorations: Full
+    startup_mode: Maximized
 font:
     normal:
         family: Sarasa Mono SC Nerd
@@ -26,7 +23,13 @@ font:
         # family: FiraCode Nerd Font
         style: Italic
     size:
-        16
+        16.0
+    offset:
+        x: 0
+        y: 0
+    glyph_offset:
+        x: 0
+        y: 0
 scrolling:
     history: 10000
 mouse:
