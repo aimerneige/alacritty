@@ -1,5 +1,5 @@
 window:
-    opacity: 0.8
+    opacity: 0.6
     dimensions:
         colums: 100
         rows: 85
@@ -7,20 +7,26 @@ window:
         x: 0
         y: 0
     dynamic_padding: false
-    decorations: Full
+    decorations: none
     startup_mode: Maximized
 font:
     normal:
         family: Sarasa Mono SC Nerd
+        # family: MesloLGS NF
         # family: FiraCode Nerd Font
+        # family: JetBrainsMono Nerd Font Mono
         style: Regular
     bold:
         family: Sarasa Mono SC Nerd
+        # family: MesloLGS NF
         # family: FiraCode Nerd Font
+        # family: JetBrainsMono Nerd Font Mono
         style: Bold
     italic:
         family: Sarasa Mono SC Nerd
+        # family: MesloLGS NF
         # family: FiraCode Nerd Font
+        # family: JetBrainsMono Nerd Font Mono
         style: Italic
     size:
         16.0
@@ -39,3 +45,6 @@ cursor:
     style: Underline
     unfocused_hollow: true
 live_config_reload: true
+key_binding:
+    - { key: V, mods: Control|Shift, action: Paste }
+    - { key: C, mods: Control|Shift, action: Copy }
