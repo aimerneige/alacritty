@@ -12,21 +12,12 @@ window:
 font:
     normal:
         family: Sarasa Mono SC Nerd
-        # family: MesloLGS NF
-        # family: FiraCode Nerd Font
-        # family: JetBrainsMono Nerd Font Mono
         style: Regular
     bold:
         family: Sarasa Mono SC Nerd
-        # family: MesloLGS NF
-        # family: FiraCode Nerd Font
-        # family: JetBrainsMono Nerd Font Mono
         style: Bold
     italic:
         family: Sarasa Mono SC Nerd
-        # family: MesloLGS NF
-        # family: FiraCode Nerd Font
-        # family: JetBrainsMono Nerd Font Mono
         style: Italic
     size:
         16.0
@@ -39,12 +30,27 @@ font:
 scrolling:
     history: 10000
 mouse:
+    double_click: { threshold: 300 }
+    triple_click: { threshold: 300 }
     hide_when_typing: true
+hints:
+    enabled:
+      - regex: "(magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|git:|ssh:|ftp:)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
+        command: xdg-open
+        post_processing: true
+        mouse:
+            enabled: true
+            mods: Control
 draw_bold_text_with_bright_colors: true
 cursor:
     style: Underline
     unfocused_hollow: true
 live_config_reload: true
+mouse_bindings:
+    - { mouse: Right, action: Copy }
+    - { mouse: Right, mods: Control, action: Paste }
+    - { mouse: Middle, action: Paste }
+    - { mouse: Middle, mods: Control, action: PasteSelection }
 key_binding:
     - { key: V, mods: Control|Shift, action: Paste }
     - { key: C, mods: Control|Shift, action: Copy }
