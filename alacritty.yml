@@ -7,8 +7,8 @@ window:
         x: 0
         y: 0
     dynamic_padding: false
-    decorations: none
-    startup_mode: Maximized
+    decorations: full # full, none
+    startup_mode: Fullscreen # Windowed, Maximized, Fullscreen
 font:
     normal:
         family: Sarasa Mono SC Nerd
